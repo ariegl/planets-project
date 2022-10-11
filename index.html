@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <li class="logo"></li>
+        <ul id="menu">
+            <li><a onclick="selectMenu()" href="#home" class="active menuItem">inicio</a></li>
+            <li><a onclick="selectMenu()" href="#about" class="menuItem">informacion</a></li>
+            <li><a onclick="selectMenu()" href="#credits" class="menuItem">creditos</a></li>
+            <li><a onclick="selectMenu()" href="#contact" class="menuItem">contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="home" class="d-flex justify-content-center align-items-center flex-wrap">
+            <div class="">
+                <h1 class="w-100 text-center text-white">¿Sabias que...?</h1>
+                <p class="text-white">Antes de 1609, los seres humanos solo conocían 6 planetas.</p>
+            </div>
+        </section>
+        <section id="about" class="d-flex justify-content-center align-items-center flex-wrap">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="planets-container">
+                    
+                        <div class="sun"></div>
+                    
+                        <div class="planet-index" id="first-planet-index">
+                            <div class="route">
+                                <div id="fist-planet-container" class="planet-container">
+                                    <div class="planet" id="first-planet"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="planet-index" id="second-planet-index">
+                            <div class="route">
+                                <div id="second-planet-container" class="planet-container">
+                                    <div class="planet" id="second-planet"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="planet-index" id="third-planet-index">
+                            <div class="route">
+                                <div id="third-planet-container" class="planet-container">
+                                    <div class="planet" id="third-planet"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cold-md-6 col-sm-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="w-75">
+                        <div class="info-container d-flex justify-content-center align-items-center flex-wrap p-4">
+                            <h1 class="text-white w-100 text-start">El sistema solar</h1>
+                            <p class="text-white">El nuestro es uno entre miles de millones en el gran cosmos. Nuestro sistema solar está formado por una estrella, ocho planetas e innumerables cuerpos más pequeños como planetas enanos, asteroides y cometas y, por supuesto, el medio interplanetario.<br><br>El sistema solar interior contiene el Sol, Mercurio, Venus, la Tierra y Marte. El sistema exterior a Júpiter, Saturno, Urano y Neptuno.<br><br>Nuestro sistema solar orbita el centro de la Vía Láctea a unos 828.000 km/h. Estamos en uno de los cuatro brazos espirales de la galaxia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="credits"><h1>SECCION 3</h1></section>
+        <section id="contact"><h1>SECCION 4</h1></section>
+    </main>
+    <footer></footer>
+</body>
+</html>
